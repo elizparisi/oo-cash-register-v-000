@@ -13,5 +13,6 @@ class CashRegister
     quantity.times do 
       items << title
   end
-    self.total = 
+    self.total = price * quantity
+  end
 end
